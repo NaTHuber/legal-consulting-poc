@@ -45,7 +45,16 @@ Para esta prueba se decidió concentrar el análisis en demandas relacionadas co
 - Columnas: `#`, `Relevancia`, `Providencia`, `Tipo (todo vacío)`, `Fecha Sentencia`, `Tema - subtema`, `resuelve`, `sintesis`.
 
 
+## 2. Preparación de datos
 
+Para esta parte del proyecto se seguirá el siguiente esquema en código 
 
+```mermaid
+    graph TD 
+        A[ 1 <br> Carga y limpieza base]-->B[2 <br> Campos adicionales para filtrado y análisis]
+        B-->C[3 <br> Construcción del campo documento para RAG ]
+        C-->D[4 <br> Filtrado para esta PoC]
+        D-->E[5 <br> Guardar datasets limpios]
+```
 
 
