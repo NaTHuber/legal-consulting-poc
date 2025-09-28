@@ -40,6 +40,11 @@ Para esta prueba se decidió concentrar el análisis en demandas relacionadas co
 - ¿Cuál es el detalle de esa demanda?
 - ¿Existen casos que hablen sobre el PIAR, y cuáles fueron sus sentencias?
 
+**Dataset:** 
+- Filas: **329**
+- Columnas: `#`, `Relevancia`, `Providencia`, `Tipo (todo vacío)`, `Fecha Sentencia`, `Tema - subtema`, `resuelve`, `sintesis`.
+
+
 
 
 
